@@ -1,0 +1,427 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1729681220646391, "dur":15158, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729681220661555, "dur":92, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729681220661688, "dur":332, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729681220662036, "dur":3289, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729681220665328, "dur":133079, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729681220798409, "dur":230, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729681220798696, "dur":59, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729681220798846, "dur":1449, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1729681220662049, "dur":3284, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729681220665335, "dur":3820, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729681220679019, "dur":333, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1729681220679405, "dur":20536, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1729681220700090, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729681220700194, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729681220700291, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\PhotonVoice.API.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729681220700420, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\PhotonVoice.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729681220700486, "dur":293, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729681220700852, "dur":165, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729681220701018, "dur":230, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729681220701249, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729681220701335, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729681220701477, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729681220701603, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729681220701719, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729681220701795, "dur":230, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729681220702072, "dur":226, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729681220702343, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player255b51fd-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1729681220679354, "dur":23110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1729681220702856, "dur":89714, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1729681220794506, "dur":3306, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1729681220794505, "dur":3309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/Capstone_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1729681220797827, "dur":540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1729681220662074, "dur":3268, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729681220665344, "dur":430, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729681220665774, "dur":3387, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729681220669162, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1729681220674653, "dur":3093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1729681220677913, "dur":390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220678315, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220678314, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Cinemachine.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220678455, "dur":465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Cinemachine.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220678935, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220678934, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220679000, "dur":554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220679570, "dur":165, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220679569, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220679745, "dur":646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220680413, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220680411, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220680532, "dur":705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220681257, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220681256, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220681355, "dur":540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220681913, "dur":180, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220681912, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220682101, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220683017, "dur":868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220683932, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.VirtualTexturingModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220684921, "dur":817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.VRModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220685803, "dur":1006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UnityWebRequestModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220686855, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UnityCurlModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220687858, "dur":807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UmbraModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220688726, "dur":1218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.TextRenderingModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220689992, "dur":785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220690815, "dur":1355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.SubstanceModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220692210, "dur":820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.SharedInternalsModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220693063, "dur":1347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.ProfilerModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220694457, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.PerformanceReportingModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220695579, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.InputModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220696666, "dur":1274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.GridModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220697990, "dur":1341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.CoreModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220699365, "dur":931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.AssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1729681220700321, "dur":1929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729681220702281, "dur":911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729681220703217, "dur":1045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729681220704287, "dur":853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729681220705165, "dur":925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729681220706127, "dur":896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729681220707047, "dur":1216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729681220708294, "dur":1128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729681220709447, "dur":889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729681220710387, "dur":881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729681220711308, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729681220712512, "dur":1173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729681220713709, "dur":1209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729681220714947, "dur":1247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729681220716217, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729681220717361, "dur":1149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729681220718538, "dur":1229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729681220720125, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Plugins/x86_64/opus_egpv.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729681220721112, "dur":22811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1729681220743939, "dur":54483, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729681220662177, "dur":3330, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729681220665509, "dur":406, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729681220665915, "dur":3356, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729681220669272, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1729681220679391, "dur":1136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1729681220680561, "dur":146, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1729681220680560, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1729681220680720, "dur":724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1729681220681467, "dur":200, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1729681220681466, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1729681220681679, "dur":1017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1729681220682725, "dur":13052, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\PhotonVoice.API.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1729681220682724, "dur":13054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/PhotonVoice.API.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1729681220695794, "dur":1068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/PhotonVoice.API.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1729681220696945, "dur":1365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.GIModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1729681220698401, "dur":1170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.ClusterRendererModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1729681220699619, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.AndroidJNIModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1729681220700635, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729681220701802, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729681220702901, "dur":1165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729681220704121, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729681220705138, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729681220706161, "dur":821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729681220707007, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729681220708190, "dur":1341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729681220709597, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729681220710626, "dur":935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729681220711585, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729681220712924, "dur":1179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729681220714126, "dur":1153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729681220715333, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729681220716722, "dur":1171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729681220717923, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729681220719386, "dur":1045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729681220720476, "dur":694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Plugins/x86_64/AudioIn.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729681220721191, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1729681220722462, "dur":608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1729681220723097, "dur":12867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1729681220736001, "dur":3902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1729681220739951, "dur":58464, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729681220662072, "dur":3265, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729681220665340, "dur":463, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729681220665803, "dur":3384, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729681220669187, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1729681220732135, "dur":1697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1729681220733885, "dur":1787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/level4.resS" }}
+,{ "pid":12345, "tid":4, "ts":1729681220735709, "dur":2836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1729681220738574, "dur":4625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1729681220743217, "dur":55208, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729681220662126, "dur":3220, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729681220665348, "dur":389, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729681220665737, "dur":3497, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729681220669235, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1729681220738631, "dur":1191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1729681220739847, "dur":58571, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729681220662169, "dur":3181, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729681220665352, "dur":465, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729681220665818, "dur":3466, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729681220669295, "dur":133, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1729681220669285, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1729681220734405, "dur":2345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1729681220736780, "dur":2909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1729681220739707, "dur":58719, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729681220662189, "dur":3165, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729681220665356, "dur":383, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729681220665739, "dur":3494, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729681220669234, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1729681220735885, "dur":1705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1729681220737637, "dur":1951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1729681220739606, "dur":58799, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729681220662205, "dur":3306, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729681220665518, "dur":426, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729681220665944, "dur":3308, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729681220669255, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1729681220739329, "dur":1159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1729681220740543, "dur":57867, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729681220662226, "dur":3406, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729681220665639, "dur":355, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729681220665994, "dur":3245, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729681220669247, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1729681220739397, "dur":1557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1729681220740977, "dur":57439, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729681220662250, "dur":3392, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729681220665643, "dur":282, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729681220665925, "dur":3332, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729681220669274, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":10, "ts":1729681220669265, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1729681220737482, "dur":2443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1729681220739959, "dur":58475, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729681220662263, "dur":3444, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729681220665707, "dur":3528, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729681220669242, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":11, "ts":1729681220669236, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1729681220679794, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1729681220680907, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1729681220680907, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1729681220680999, "dur":710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1729681220681732, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1729681220681731, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Unity.2D.Tilemap.Extras.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1729681220681812, "dur":954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Unity.2D.Tilemap.Extras.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1729681220682789, "dur":58510, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1729681220682788, "dur":58513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1729681220741324, "dur":1558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1729681220742900, "dur":55535, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729681220662289, "dur":3437, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729681220665726, "dur":3436, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729681220669217, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":12, "ts":1729681220669163, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1729681220674525, "dur":2176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1729681220676745, "dur":576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone.exe" }}
+,{ "pid":12345, "tid":12, "ts":1729681220677617, "dur":3944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1729681220681585, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\PhotonVoice.PUN.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1729681220681584, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/PhotonVoice.PUN.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1729681220681674, "dur":746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/PhotonVoice.PUN.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1729681220682437, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\PhotonVoice.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1729681220682436, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/PhotonVoice.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1729681220682530, "dur":633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/PhotonVoice.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1729681220683221, "dur":1047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.XRModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1729681220684330, "dur":899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.VideoModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1729681220685270, "dur":678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.VFXModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1729681220685995, "dur":862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1729681220686902, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UnityConnectModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1729681220687948, "dur":1069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UIModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1729681220689055, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1729681220690585, "dur":939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.TLSModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1729681220691579, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.SpriteMaskModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1729681220692842, "dur":1160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.ScreenCaptureModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1729681220694059, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.PhysicsModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1729681220695489, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.JSONSerializeModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1729681220696385, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.HotReloadModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1729681220697777, "dur":846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.DSPGraphModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1729681220698675, "dur":1269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.ClothModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1729681220699981, "dur":949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.AIModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1729681220700964, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729681220702088, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729681220703008, "dur":1410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729681220704450, "dur":938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729681220705408, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729681220706508, "dur":777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729681220707306, "dur":1100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/PhotonVoice.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729681220708431, "dur":975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729681220709430, "dur":915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729681220710367, "dur":794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729681220711184, "dur":1193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729681220712434, "dur":1270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729681220713738, "dur":1164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729681220714929, "dur":1197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729681220716150, "dur":1170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729681220717346, "dur":1146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729681220718515, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729681220719727, "dur":1286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729681220721054, "dur":5363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":12, "ts":1729681220726464, "dur":27576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1729681220754057, "dur":44358, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1729681220662297, "dur":3435, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1729681220665732, "dur":3427, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1729681220669187, "dur":127, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":13, "ts":1729681220669162, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":13, "ts":1729681220670477, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":13, "ts":1729681220671801, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1729681220672044, "dur":4038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1729681220676099, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":13, "ts":1729681220676098, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":13, "ts":1729681220676235, "dur":4402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":13, "ts":1729681220680675, "dur":139, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1729681220680673, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1729681220680832, "dur":723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1729681220681575, "dur":161, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1729681220681574, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1729681220681748, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1729681220682734, "dur":143, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Postprocessing.Runtime.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1729681220682732, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Unity.Postprocessing.Runtime.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1729681220682890, "dur":759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Unity.Postprocessing.Runtime.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1729681220683697, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.WindModule.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1729681220684826, "dur":800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.VehiclesModule.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1729681220685696, "dur":930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1729681220686678, "dur":886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1729681220687626, "dur":954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1729681220688624, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UIElementsModule.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1729681220690228, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.TerrainModule.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1729681220691573, "dur":1288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.SpriteShapeModule.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1729681220692898, "dur":2476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.PropertiesModule.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1729681220695428, "dur":800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.LocalizationModule.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1729681220696263, "dur":1463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.IMGUIModule.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1729681220697766, "dur":871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.CrashReportingModule.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1729681220698676, "dur":1166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.AudioModule.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1729681220699875, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.ARModule.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1729681220700957, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1729681220701898, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":13, "ts":1729681220703104, "dur":1921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":13, "ts":1729681220705049, "dur":838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":13, "ts":1729681220705909, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":13, "ts":1729681220706861, "dur":1183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/PhotonVoice.PUN.dll" }}
+,{ "pid":12345, "tid":13, "ts":1729681220708066, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1729681220709030, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1729681220709904, "dur":887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1729681220710812, "dur":1039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1729681220711879, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1729681220713235, "dur":1085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1729681220714352, "dur":1241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1729681220715618, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1729681220716820, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1729681220718012, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1729681220719511, "dur":1203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1729681220720748, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1729681220720747, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1729681220720834, "dur":677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1729681220721538, "dur":2094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":13, "ts":1729681220723659, "dur":640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":13, "ts":1729681220724320, "dur":601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":13, "ts":1729681220724947, "dur":22170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/resources.resource" }}
+,{ "pid":12345, "tid":13, "ts":1729681220747143, "dur":51278, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1729681220662317, "dur":3421, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1729681220665739, "dur":3421, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1729681220669162, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":14, "ts":1729681220670302, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":14, "ts":1729681220671620, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1729681220671791, "dur":4752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1729681220676575, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":14, "ts":1729681220676574, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":14, "ts":1729681220676694, "dur":8759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":14, "ts":1729681220685519, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1729681220686470, "dur":927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1729681220687478, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1729681220688672, "dur":822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.TilemapModule.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1729681220689563, "dur":1007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1729681220690638, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.SubsystemsModule.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1729681220691547, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.StreamingModule.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1729681220692891, "dur":1259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1729681220694188, "dur":741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.Physics2DModule.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1729681220694972, "dur":807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.ParticleSystemModule.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1729681220695818, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.InputLegacyModule.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1729681220696836, "dur":1187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.GameCenterModule.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1729681220698063, "dur":1278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.ContentLoadModule.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1729681220699376, "dur":916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.AnimationModule.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1729681220700319, "dur":2445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1729681220702807, "dur":843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":14, "ts":1729681220703672, "dur":1207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1729681220704905, "dur":742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1729681220705671, "dur":882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":14, "ts":1729681220706598, "dur":1159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":14, "ts":1729681220707778, "dur":894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/PhotonVoice.API.dll" }}
+,{ "pid":12345, "tid":14, "ts":1729681220708692, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1729681220709645, "dur":933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1729681220710602, "dur":738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1729681220711361, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1729681220712980, "dur":1022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1729681220714027, "dur":1183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1729681220715234, "dur":1120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1729681220716379, "dur":1252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1729681220717653, "dur":1204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1729681220718889, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1729681220720218, "dur":1235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Plugins/x86_64/webrtc-audio.dll" }}
+,{ "pid":12345, "tid":14, "ts":1729681220721479, "dur":21175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1729681220742680, "dur":55756, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1729681220662329, "dur":3415, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1729681220665744, "dur":3494, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1729681220669250, "dur":143, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1729681220669239, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1729681220731855, "dur":3540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1729681220735446, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/level3.resS" }}
+,{ "pid":12345, "tid":15, "ts":1729681220736936, "dur":1786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/level1.resS" }}
+,{ "pid":12345, "tid":15, "ts":1729681220738748, "dur":2136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":15, "ts":1729681220740933, "dur":57505, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1729681220662348, "dur":3399, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1729681220665748, "dur":3488, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1729681220669237, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1729681220736803, "dur":2083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1729681220738918, "dur":2003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":16, "ts":1729681220740945, "dur":57472, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1729681220662376, "dur":3375, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1729681220665752, "dur":3404, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1729681220669182, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1729681220679976, "dur":720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/app.info" }}
+,{ "pid":12345, "tid":17, "ts":1729681220680699, "dur":30441, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\USER\\Documents\\GitHub\\Potato\\Capstone\\Library\\Bee\\PlayerScriptAssemblies\\PhotonChat.pdb" }}
+,{ "pid":12345, "tid":17, "ts":1729681220680698, "dur":30444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":17, "ts":1729681220711150, "dur":1082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":17, "ts":1729681220712255, "dur":1193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1729681220713483, "dur":1113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1729681220714619, "dur":1245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1729681220715887, "dur":1193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1729681220717102, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1729681220718104, "dur":1468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1729681220719595, "dur":1295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1729681220720929, "dur":3737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":17, "ts":1729681220724708, "dur":2470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":17, "ts":1729681220727218, "dur":12301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/resources.assets" }}
+,{ "pid":12345, "tid":17, "ts":1729681220739540, "dur":58871, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1729681220662388, "dur":3369, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1729681220665757, "dur":3402, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1729681220669188, "dur":170, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":18, "ts":1729681220669163, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":18, "ts":1729681220732529, "dur":4772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":18, "ts":1729681220737336, "dur":2234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/level0.resS" }}
+,{ "pid":12345, "tid":18, "ts":1729681220739590, "dur":58823, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1729681220662404, "dur":3356, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1729681220665761, "dur":3427, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1729681220669223, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":19, "ts":1729681220669217, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":19, "ts":1729681220733024, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":19, "ts":1729681220734378, "dur":2682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/level4" }}
+,{ "pid":12345, "tid":19, "ts":1729681220737141, "dur":3202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/level1" }}
+,{ "pid":12345, "tid":19, "ts":1729681220740376, "dur":58033, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1729681220662418, "dur":3350, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1729681220665768, "dur":3389, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1729681220669184, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":20, "ts":1729681220669162, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/USER/Desktop/Capstone/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":20, "ts":1729681220669810, "dur":25163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":20, "ts":1729681220695012, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.NVIDIAModule.pdb" }}
+,{ "pid":12345, "tid":20, "ts":1729681220696012, "dur":1328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.ImageConversionModule.pdb" }}
+,{ "pid":12345, "tid":20, "ts":1729681220697377, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.DirectorModule.pdb" }}
+,{ "pid":12345, "tid":20, "ts":1729681220698389, "dur":1188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.ClusterInputModule.pdb" }}
+,{ "pid":12345, "tid":20, "ts":1729681220699619, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.AccessibilityModule.pdb" }}
+,{ "pid":12345, "tid":20, "ts":1729681220700628, "dur":2156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":20, "ts":1729681220702808, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":20, "ts":1729681220703821, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":20, "ts":1729681220704878, "dur":846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":20, "ts":1729681220705746, "dur":1069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":20, "ts":1729681220706845, "dur":1223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":20, "ts":1729681220708098, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":20, "ts":1729681220708997, "dur":889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1729681220709907, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1729681220710821, "dur":1024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1729681220711877, "dur":1181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1729681220713083, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1729681220714192, "dur":1260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1729681220715484, "dur":1189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1729681220716708, "dur":1187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1729681220717918, "dur":1566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1729681220719518, "dur":1386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1729681220720930, "dur":27917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/USER/Desktop/Capstone/Capstone_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":20, "ts":1729681220748871, "dur":49543, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729681220802144, "dur":907, "ph":"X", "name": "ProfilerWriteOutput" }
+,
